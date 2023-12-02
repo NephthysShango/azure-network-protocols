@@ -27,11 +27,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Create 2 virtual machines (windows 10 & linux)
 - Use microsoft remote desktop to connect to VM1 (windows 10)
-- Observe ICMP traffic
-- Observe SSH traffic
-- Observe DHCP taffic
-- Oberve DNS traffic
-- Observe RDP traffic
+- Install wireshark to inspect traffic (ICMP, SSH, DHCP, DNS, RDP)
+- 
+- 
+- 
 - 
 
 <h2>Actions and Observations</h2>
