@@ -60,6 +60,6 @@ To find out some of the IP addresses that disney.com uses, I asked the DNS serve
 <p>
 <img src="https://i.imgur.com/zulH3PT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Lastly, I observed RDP traffic using tcp.port == 3389. Although you're unable to see the movement, the traffic was busy because there's was a live RDP session on my computer to VM1. Any movement or action that I made allowed the traffic to keep going. 
+<p>Lastly, I observed RDP traffic using tcp.port == 3389. Although you're unable to see the movement, the traffic was busy because there's was a live RDP session on my computer to VM1. Any movement or action that was made allowed the traffic to keep going. 
 </p>
 <br /
