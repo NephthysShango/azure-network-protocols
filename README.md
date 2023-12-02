@@ -29,7 +29,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create 2 virtual machines (windows 10 & linux)
 - Use microsoft remote desktop to connect to VM1 (windows 10)
 - Install wireshark
-- Use wireshark, powershell and VM2's private IP address to inspect traffic
+- Use wireshark, powershell and VM2's private IP address to inspect network traffic
 
 <h2>Actions and Observations</h2>
 
