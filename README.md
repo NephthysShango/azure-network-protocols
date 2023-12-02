@@ -51,10 +51,10 @@ I was able to block ICMP's traffic on VM2's firewall by creating a inbound secur
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Oosw72n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+To find out some of the IP addresses that disney.com uses, I asked the DNS server using nslookup. 
 </p>
 <br />
 
