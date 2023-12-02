@@ -17,6 +17,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Various Command-Line Tools
 - Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
+- Powershell
 
 <h2>Operating Systems Used </h2>
 
@@ -29,8 +30,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Use microsoft remote desktop to connect to VM1 (windows 10)
 - Install wireshark
 - Use wireshark, powershell and VM2's private IP address to inspect traffic
-- 
-- 
 
 <h2>Actions and Observations</h2>
 
@@ -59,9 +58,8 @@ To find out some of the IP addresses that disney.com uses, I asked the DNS serve
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zulH3PT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-
+<p>Lastly, I observed RDP traffic using tcp.port == 3389. Although you're unable to see the movement, the traffic was busy because there's was a live RDP session on my computer to VM1. Any movement or action that I made allowed the traffic to keep going. 
 </p>
 <br /
