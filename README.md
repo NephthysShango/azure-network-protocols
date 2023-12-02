@@ -43,10 +43,10 @@ After successully downloading wireshark, I launched it. This shows the live traf
 <br />
 
 <p>
-<img src="https://i.imgur.com/8C3TyOh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wmsB7Mj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Filtered the traffic by ICMP. Then with VM'2 private IP, I used powershell to ping it and was able to see the replies. I also did the same for www.disney.com.
+I was able to block ICMP's traffic on VM2's firewall by creating a inbound security role in VM's network security group and denying the traffic. The ping timed out and VM2 was unable to receive it and send a reply. I then went back and allowed ICMP traffic again.  
 </p>
 <br />
 
@@ -54,6 +54,14 @@ Filtered the traffic by ICMP. Then with VM'2 private IP, I used powershell to pi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br /
