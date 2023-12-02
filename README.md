@@ -27,9 +27,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Create 2 virtual machines (windows 10 & linux)
 - Use microsoft remote desktop to connect to VM1 (windows 10)
-- Install wireshark to inspect traffic (ICMP, SSH, DHCP, DNS, RDP)
-- 
-- 
+- Install wireshark
+- Use wireshark, powershell and VM2's private IP address to inspect traffic
 - 
 - 
 
@@ -44,10 +43,10 @@ After successully downloading wireshark, I launched it. This shows the live traf
 <br />
 
 <p>
-<img src="https://i.imgur.com/5ojWTrF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8C3TyOh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Filtered the traffic by ICMP. Then with VM'2 private IP, I used powershell to ping it and was able to see the replies. I also did the same for www.google.com.
+Filtered the traffic by ICMP. Then with VM'2 private IP, I used powershell to ping it and was able to see the replies. I also did the same for www.disney.com.
 </p>
 <br />
 
