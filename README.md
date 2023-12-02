@@ -37,7 +37,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/bOFzGU1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successully downloading wireshark, I launched it. This shows the live traffic thats happening on the virtual machine that I created.
+After downloading wireshark, it launched successfully. Live traffic was reciprocated. 
 </p>
 <br />
 
